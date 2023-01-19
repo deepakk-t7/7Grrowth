@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+nav{
+   
+    background-color: rgb(255, 255, 255);
+    /* transition: background-color 0.5s ease; */
+    height: 100px;
+    width: 100%;
+}
+nav ul{
+    font-size: 20px;
+    
+    float: right;
+    margin-right: 180px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 120px;
+    margin: 0 20px
+}
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+nav ul li a:hover{
+  color: red;
+}
+nav img{
+    width: 8%;
+    margin-left: 80px;
+}
+
+.mid{
+    width: 100%;
+    position: relative;
+    background-color: #F9F9F9;
+    height: 650px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.mid h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: absolute;
+    line-height: 1.5;
+   margin-top: 160px;
+   margin-left: 150px;
+   font-size: 60px;
+}
+
+.mid h2{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    margin-top:350px ;
+    margin-left:150px ;
+    font-weight: 100;
+    font-size: 25px;
+}
+.mid img{
+    position: absolute;
+    bottom: 20px;
+    /* left: 20px; */
+    /* gap: 30px; */
+    /* right: 60px; */
+    padding-right:80px;
+    
+    width: 50%;
+    margin-left: 900px;
+
+}
+
+.clients{
+    text-align: center;
+    margin-top: 50px;
+    height: 350px;
+    
+}
+.clients h1{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: bold;
+    /* font-weight: 900; */
+    letter-spacing: 2px;
+    /* position: absolute; */
+    /* line-height: 1.5; */
+   font-size: 35px;
+}
+.clients h2{
+    /* margin-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    word-spacing: 1.2;
+    font-weight: lighter;
+}
+.clients img{
+    padding-top: 80px;
+    width: 10%;
+}
+.bottom{
+    padding-top: 50px;
+    height: 350px;
+    text-align: center;
+    margin-top: 50px;
+    
+    /* background-color: #f9f9f9; */
+}
+.bottom h1{
+    font-family: 'Poppins', sans-serif ;
+    font-weight: bold;
+    /* font-weight: 900; */
+    letter-spacing: 2px;
+    /* position: absolute; */
+    /* line-height: 1.5; */
+   font-size: 35px;
+}
+.bottom h2{
+    font-size: 25px;
+    /* position: absolute; */
+    font-family: 'Poppins', sans-serif;
+   margin-top: 40px;
+    font-weight: 100;
+    font-size: 25px;
+}
+/* .bottom button{
+    margin-top: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    
+     border-radius: 50px;
+     padding: 12px 20px;
+     cursor: pointer;
+    font-size: large;
+}
+.bottom button:hover{
+  border: 2px bold;
+  border-width: 2px;
+
+  border-radius: 50px;
+  border-color: rgb(255, 0, 0);
+  background-color:rgb(255, 255, 255) ;
+  color: red;
+} */
+
+#outer{
+  margin-top: 40px;
+}
+.button_slide {
+  color: black;
+  border: 2px solid red;
+  border-radius: 100px;
+  padding: 12px 20px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: large;
+  /* letter-spacing: 1px; */
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 red;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  color:white ;
+  box-shadow: inset 400px 0 0 0 red;
+}
+
+
+
+/*
+    Auther: Abdelrhman Said
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
+/* footer CSS */
+
+.foot{
+  /* position: relative; */
+  background-color: #f9f9f9;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-top:100px ;
+  /* height: 250px; */
+}
+.cws{
+  /* position: absolute; */
+font-size: 12px;
+  padding-top: 20px;
+ display: flex;
+ justify-content: center;
+}
+
+.wrapper {
+ 
+  display: flex;
+  /* padding-top: 100px; */
+  /* margin-top: 80px; */
+  /* margin-bottom: 90px; */
+  list-style: none;
+  justify-content: center;
+  
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  /* background-color: rgb(160, 158, 158);
+  color: white; */
+
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877F2;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1DA1F2;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+
+.bottom-footer{
+  margin-top: 38px;
+  /* padding-bottom: 90px; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ /* justify-content: center; */
+  
+}
+
+.bottom-footer h4{
+  color: black;
+  font-size: 15px;
+}
+
+.pp{
+  font-size: 12px;
+  color: red;
+  /* padding: 0; */
+}
+
+.bottom-footer p{
+  color: rgb(104, 103, 103);
+  font-size: 12px;
+}
+
+
+
+
