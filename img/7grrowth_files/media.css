@@ -1,0 +1,266 @@
+@media screen and (max-width:991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .navlinks {
+        /* display: none; */
+        position: absolute;
+        /* margin-top: 400px; */
+        /* padding-top: 100px; */
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        height: 100vh;
+        padding-block: 30px;
+        transition: 0.3s ease-in-out;
+        background-color: white;
+    }
+
+    .active {
+        left: 0%;
+        /* width: 100vw; */
+    }
+
+    .nav-toggle i {
+        font-size: x-large;
+        color: red;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .navlinks ul {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+
+    .card {
+        width: 350px;
+        height: 300px;
+    }
+
+    .section-cta h2 {
+        text-align: center;
+    }
+
+    .social-icons .fa-brands {
+        width: 35px;
+        height: 35px;
+    }
+
+    .column {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .header-section {
+        gap: 30px;
+    }
+
+    .header-right {
+        margin-top: -150px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .header-section {
+        flex-direction: column-reverse;
+    }
+
+    .header-section img {
+        margin-top: 160px;
+    }
+
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .primary-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work-set {
+        justify-content: center;
+        /* width: 100%; */
+    }
+
+    .statistics .box-container {
+        gap: 50px;
+    }
+
+    .customers img {
+        width: 15%;
+    }
+
+    .faq .faq-text .faq-img {
+        display: flex;
+        width: 40vw;
+        margin-inline: auto;
+    }
+
+    .faq-text {
+        gap: 0px;
+    }
+
+    .section-cta {
+        text-align: center;
+    }
+
+    .work-img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .header-section img {
+        margin-top: 148px;
+    }
+
+    .box-container {
+        justify-content: center;
+    }
+
+    .statistics .box-container .box {
+        padding: 29px 16px 24px 16px;
+    }
+
+    .statistics .box-container .box i {
+        font-size: 2.2rem;
+        color: black;
+
+    }
+
+    .statistics .box-container .box .content h3 {
+        font-size: 1.2rem;
+        color: black;
+        margin-bottom: .5rem;
+    }
+
+    .statistics .box-container .box .content p {
+        font-size: .9rem;
+        color: black;
+    }
+
+    .customers img {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+    }
+
+    .column {
+        width: 125%;
+        /* height: 125%; */
+    }
+
+    .card {
+        /* border: 1px solid black; */
+        padding: 20px 10px 25px 10px;
+    }
+
+    .card h3 {
+        font-size: 15px;
+    }
+
+    .card {
+        box-shadow: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .card:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    }
+
+    .wimg {
+        box-shadow: none;
+    }
+
+    .work-row {
+        gap: 70px;
+    }
+
+    .work-content h4 {
+        font-size: 20px;
+    }
+
+    .testimonial-heading {
+        margin-top: 60px;
+    }
+
+    .testimonial-heading {
+        font-size: 24px;
+    }
+
+    .work-heading h2 {
+        font-size: 24px;
+    }
+
+    .section-heading {
+        font-size: 24px;
+    }
+
+    .clients h2 {
+        font-size: 24px;
+    }
+
+    .section-cta h2 {
+        font-size: 24px;
+    }
+
+    .section-cta p {
+        font-size: 18px;
+    }
+
+    .faq-heading {
+        font-size: 24px;
+    }
+
+    .accordion {
+        margin-top: 30px;
+    }
+
+    .accordion button .icon {
+        right: -15px;
+    }
+
+    .carousel-caption {
+        margin-top: -30px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px !important;
+    }
+
+    .work-img {
+        width: 300px;
+    }
+
+    .accordion .accordion-title {
+        font-size: 1rem;
+    }
+
+    .accordion .accordion-content p {
+        font-size: 0.8rem;
+        /* max-height: fit-content; */
+        /* padding-bottom: 80px; */
+    }
+
+    .cta {
+        padding-top: 99px;
+        padding-bottom: 90px;
+    }
+
+
+}

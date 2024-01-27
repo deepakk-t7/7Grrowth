@@ -1,0 +1,63 @@
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hero-text-container h1 {
+  animation: drop-in 1200ms ease 200ms backwards;
+}
+
+.hero-text-container h2 {
+  animation: drop-in 1600ms ease 500ms backwards;
+}
+
+.hero-text-container a {
+  animation: drop-in 2000ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}
+
+.hero-img-container img {
+  animation: zoom 1600ms ease 500ms backwards;
+}
+
+@keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+  filter: blur(5px);
+  transform: translateY(50%);
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.numbers-right:nth-child(2) {
+  transition-delay: 200ms;
+}
+.numbers-right:nth-child(3) {
+  transition-delay: 300ms;
+}
+.numbers-right:nth-child(4) {
+  transition-delay: 400ms;
+}
